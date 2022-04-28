@@ -1,0 +1,245 @@
+body, html{
+    height: 100%;
+}
+body{
+    display: flex;
+    justify-content: center;
+    margin:0;
+    flex-direction:column;
+    background-color: #fffbee;
+    min-width: 350px;
+}
+/* Egg animation */
+.eggContainer{
+    width: 400px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.hide{
+    display: none;
+}
+/* Bounce Egg */
+.bounce{
+    animation: bounce .5s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, .7, .05, .5);
+    animation-iteration-count: 12; 
+}
+@keyframes bounce{
+    from {
+        transform: translate3d(0, 0px, 0);
+    }
+    to {
+        transform: translate3d(0, -100px, 0);
+    }
+}
+/* breaks egg open */
+.topOpen{
+    animation: top 1s both;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes top{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(-45deg);
+    }
+}
+.bottomOpen{
+    animation: bottom 2s both;
+    transform-origin: bottom;
+    transform-box: fill-box;
+    position: absolute;
+}
+@keyframes bottom{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(45deg);
+    }
+}
+/* enter */
+#rooms{
+    width: 400px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* chicken */
+.leave{
+    animation: leave 5s both;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes leave{
+    from {
+        transform: translate3d(0, -40px, 0);
+    }
+    to {
+        transform: translate3d(-600px, -150px, 0);
+    }
+}
+/* rooms */
+.instructions{
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    background-color: #ffecad;
+    
+    margin-bottom: 10px;
+}
+h1, p, label{
+    margin: 10px;
+}
+.guessingArea{
+    text-align: center;
+    font-family: Poppins, sans-serif;
+    background-color: #ffecad;
+    
+    margin-top: 10px;
+}
+
+
+/* kitchen */
+.kitchen{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* spin paddle in mixer */
+#Paddle{
+    animation: mix .5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+@keyframes mix{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(-180deg);
+    }
+}
+#CakeBatter{
+    animation: cakeMix .5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes cakeMix{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(20deg);
+    }
+}
+/* roll rolling pin */
+#RollingPin{
+    animation: roll .5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+@keyframes roll{
+    from {
+        transform: translate3d(0, 0px, 0);
+    }
+    to {
+        transform: translate3d(-5px, -6px, 0);
+    }
+}
+#Dough{
+    animation: rolling .5s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+@keyframes rolling{
+    from {
+        transform:scaleY(1)
+    }
+    to {
+        transform: scaleY(1.1)
+    }
+}
+/* baking muffins */
+#Muffins{
+    animation: rise 5s;
+    animation-iteration-count: infinite;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+@keyframes rise{
+    from {
+        transform: translate3d(15px, 0px, 0);
+    }
+    to {
+        transform: translate3d(15px, -8px, 0);
+    }
+}
+/* Boiling pot */
+#Pot{
+    animation: shake .5s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes shake{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(2deg);
+    }
+}
+#PotLid{
+    animation: popTop .5s;
+    animation-iteration-count: infinite;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+@keyframes popTop{
+    from {
+        transform: translate3d(0, 0px, 0);
+    }
+    to {
+        transform: translate3d(0, -1px, 0);
+    }
+}
+#Drips{
+    animation: drip 2s;
+    animation-iteration-count: infinite;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+@keyframes drip{
+    from {
+        transform: scaleY(0)
+    }
+    to {
+        transform: scaleY(1)
+    }
+}
+/* Tea Kettle */
+#Steam{
+    animation: riseSteam .5s;
+    animation-iteration-count: infinite;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+@keyframes riseSteam{
+    from {
+        transform: translate3d(0, 0px, 0);
+    }
+    to {
+        transform: translate3d(-1px, -1px, 0);
+    }
+}
