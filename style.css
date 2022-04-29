@@ -115,6 +115,9 @@ input{
     border: 2px double #000000;
     border-radius: 10px;
 }
+a{
+    text-decoration: none;
+}
 
 
 /* kitchen */

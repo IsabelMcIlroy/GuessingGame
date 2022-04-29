@@ -97,8 +97,6 @@ checkAnswerThree.addEventListener('click', (e) => {
 function questionThree() {
     answer = document.getElementById('answerThree').value;
     if (answer == 'boiling over') {
-        document.getElementById('Pot').classList.remove("hide");
-        document.getElementById('PotLid').classList.remove("hide");
         document.getElementById('Drips').classList.remove("hide");
         document.getElementById('questionFour').classList.remove("hide");
         document.getElementById('questionThree').classList.add("hide");
@@ -108,8 +106,6 @@ function questionThree() {
         document.getElementById('enterThree').classList.add("hide");
     }
     else if (answer == 'Boiling Over') {
-        document.getElementById('Pot').classList.remove("hide");
-        document.getElementById('PotLid').classList.remove("hide");
         document.getElementById('Drips').classList.remove("hide");;
         document.getElementById('questionFour').classList.remove("hide");
         document.getElementById('questionThree').classList.add("hide");
@@ -189,6 +185,8 @@ function questionFive() {
         document.getElementById('answerFive').classList.add("hide");
         document.getElementById('bRoom').classList.remove("hide");
         document.getElementById('enterFive').classList.add("hide");
+        document.getElementById('home').classList.remove("hide");
+        document.getElementById('kRoom').classList.remove("hide");
     }
     else if (answer == 'Muffins') {
         document.getElementById('Muffins').classList.remove("hide");
@@ -197,6 +195,8 @@ function questionFive() {
         document.getElementById('answerFive').classList.add("hide");
         document.getElementById('bRoom').classList.remove("hide");
         document.getElementById('enterFive').classList.add("hide");
+        document.getElementById('home').classList.remove("hide");
+        document.getElementById('kRoom').classList.remove("hide");
     }
     else {
         document.getElementById('answerFour').value = 'try again!'
