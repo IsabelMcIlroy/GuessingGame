@@ -88,7 +88,6 @@ body{
     text-align: center;
     font-family: Poppins, sans-serif;
     background-color: #ffecad;
-    
     margin-bottom: 10px;
 }
 h1, p, label{
@@ -98,8 +97,23 @@ h1, p, label{
     text-align: center;
     font-family: Poppins, sans-serif;
     background-color: #ffecad;
-    
+    padding: 5px;
     margin-top: 10px;
+}
+button{
+    font-family: Poppins, sans-serif;
+    background-color: #adb5ff;
+    padding: 2px 4px;
+    border: 2px double #5a5e86;
+    border-radius: 10px;
+}
+button:hover{
+    font-weight: bold;
+}
+input{
+    text-align: end;
+    border: 2px double #000000;
+    border-radius: 10px;
 }
 
 
@@ -242,4 +256,7 @@ h1, p, label{
     to {
         transform: translate3d(-1px, -1px, 0);
     }
+}
+#Time{
+    transform: translateX(4px);
 }
