@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 500 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <g id="Background" transform="matrix(0.986502,0,0,0.986502,315.946,8.50158)">
+        <g transform="matrix(-1.26302,0,0,1.4547,67.8125,-60.5501)">
+            <path d="M179.601,48.293C179.601,35.101 25.277,35.101 25.277,48.293L25.277,96.098C25.277,109.29 84.974,116.988 84.974,116.988L98.818,167.784L117.664,116.234C117.664,116.234 179.601,109.29 179.601,96.098L179.601,48.293Z" style="fill:rgb(246,210,245);fill-opacity:0.5;stroke:rgb(115,44,102);stroke-width:1.12px;"/>
+        </g>
+        <g transform="matrix(1.4746,0,0,1.4746,-427.728,-53.3668)">
+            <path d="M182.846,41.512C186.465,56.405 310.308,58.319 314.242,41.856C316.871,30.858 180.028,29.91 182.846,41.512Z" style="fill:rgb(217,153,206);fill-opacity:0.5;stroke:rgb(115,44,102);stroke-width:0.69px;"/>
+        </g>
+        <g transform="matrix(-1.11318,0.704149,0.653483,1.03309,-144.576,-63.5813)">
+            <path d="M152.071,120C167.265,120 167.265,24.39 152.071,24.39L52.807,24.39C37.613,24.39 37.613,120 52.807,120L75.432,120L86.373,120.109L98.581,120L152.071,120Z" style="fill:rgb(255,214,144);fill-opacity:0.5;stroke:rgb(146,103,41);stroke-width:1.2px;"/>
+        </g>
+        <g transform="matrix(1.04722,-0.662425,0.662425,1.04722,-365.551,21.2481)">
+            <path d="M29.29,61.38C29.29,61.38 18.957,122.972 30.369,155.305" style="fill:none;stroke:rgb(146,103,41);stroke-width:0.82px;"/>
+        </g>
+        <g transform="matrix(1.04722,-0.662425,0.662425,1.04722,-362.041,19.4017)">
+            <path d="M29.29,61.38C29.29,61.38 18.957,122.972 30.369,155.305" style="fill:none;stroke:rgb(146,103,41);stroke-width:1.23px;"/>
+        </g>
+        <g transform="matrix(-1.04722,0.662425,0.662425,1.04722,-199.462,-83.2898)">
+            <path d="M29.29,61.38C29.29,61.38 18.957,122.972 30.369,155.305" style="fill:none;stroke:rgb(146,103,41);stroke-width:0.82px;"/>
+        </g>
+        <g transform="matrix(-1.04722,0.662425,0.662425,1.04722,-202.634,-80.9087)">
+            <path d="M29.29,61.38C29.29,61.38 18.957,122.972 30.369,155.305" style="fill:none;stroke:rgb(146,103,41);stroke-width:1.23px;"/>
+        </g>
+        <g transform="matrix(-1.0472,-0.598034,-0.68879,1.20612,227.857,59.1833)">
+            <path d="M75.322,121.735L98.581,123.702C117.158,123.507 136.461,121.437 153.47,113.342C159.653,110.399 169.529,105.041 174.521,98.638C181.577,89.587 181.979,77.021 180.984,66.149C180.591,61.85 179.852,57.566 178.743,53.394C172.734,30.803 146.265,23.722 127.078,17.503C118.743,14.801 106.878,12.951 98.094,13.509C73.986,15.04 42.758,23.137 29.345,45.682C10.79,76.865 36.718,117.504 75.322,121.735Z" style="fill:rgb(210,214,246);fill-opacity:0.5;stroke:rgb(77,86,152);stroke-width:1.17px;"/>
+        </g>
+        <g transform="matrix(1.13596,0.79746,-0.584933,0.833219,-350.909,-341.194)">
+            <path d="M444.853,35.123L442,44.157C442,44.157 463.574,51.685 472.07,57.648C470.977,48.837 444.853,35.123 444.853,35.123Z" style="fill:rgb(218,218,218);fill-opacity:0.5;stroke:rgb(77,86,152);stroke-width:0.83px;"/>
+        </g>
+    </g>
+    <g id="Text">
+        <g transform="matrix(1,0,0,1,32.5329,-26.6063)">
+            <text x="55.432px" y="102.12px" style="font-family:'BerlinSansFBDemi-Bold', 'Berlin Sans FB Demi', sans-serif;font-weight:700;font-size:80px;">Welcome</text>
+        </g>
+        <g transform="matrix(1,0,0,1,-14.8296,48.6165)">
+            <text x="55.432px" y="75.52px" style="font-family:'BerlinSansFBDemi-Bold', 'Berlin Sans FB Demi', sans-serif;font-weight:700;font-size:42px;">To the Guessing Game</text>
+        </g>
+    </g>
+</svg>

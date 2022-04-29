@@ -63,9 +63,10 @@ body{
     }
 }
 /* enter */
-#rooms{
+
+#rooms, #welcome{
     width: 400px;
-    height: 100px;
+
     margin-left: auto;
     margin-right: auto;
 }

@@ -77,6 +77,7 @@ function crackEggTwo() {
  function walkChicken() {
     const crack = function() { 
         document.getElementById('Chicken').classList.add("leave");
+        document.getElementById('welcome').classList.add("hide");
         document.getElementById('rooms').classList.remove("hide");
  }
   
