@@ -1,27 +1,9 @@
-// kitchen page
+// dinning page
 document.getElementById('answerOne').value = ''
 document.getElementById('answerTwo').value = ''
 document.getElementById('answerThree').value = ''
 document.getElementById('answerFour').value = ''
 document.getElementById('answerFive').value = ''
-
-// display time
-const clock = document.getElementById('time');
-
-function formatTime(dateObject) {
-    const parts = {
-        hour: dateObject.getHours(),
-        minute: dateObject.getMinutes().toString().padStart(2, "0")
-    }
-    document.getElementById('clock').innerHTML = `${parts.hour}:${parts.minute}`
-    return `${parts.hour}:${parts.minute}`
-    
-} 
-
-const myTime = new Date();
-const myTimeFormatted = formatTime(myTime);
-
-console.log(myTimeFormatted);
 
 // guess word
 // question one
@@ -32,8 +14,8 @@ checkAnswer.addEventListener('click', (e) => {
 })
 function questionOne() {
     answer = document.getElementById('answerOne').value;
-    if (answer == 'rolling pin') {
-        document.getElementById('RollingPin').classList.remove("hide");
+    if (answer == 'mug') {
+        document.getElementById('TeaCup').classList.remove("hide");
         document.getElementById('questionTwo').classList.remove("hide");
         document.getElementById('questionOne').classList.add("hide");
         document.getElementById('answerTwo').classList.remove("hide");
@@ -41,8 +23,8 @@ function questionOne() {
         document.getElementById('enterTwo').classList.remove("hide");
         document.getElementById('enter').classList.add("hide"); 
     }
-    else if (answer == 'Rolling Pin') {
-        document.getElementById('RollingPin').classList.remove("hide");
+    else if (answer == 'Mug') {
+        document.getElementById('TeaCup').classList.remove("hide");
         document.getElementById('questionTwo').classList.remove("hide");
         document.getElementById('questionOne').classList.add("hide");
         document.getElementById('answerTwo').classList.remove("hide");
@@ -62,10 +44,9 @@ checkAnswerTwo.addEventListener('click', (e) => {
 })
 function questionTwo() {
     answer = document.getElementById('answerTwo').value;
-    if (answer == 'mixer') {
-        document.getElementById('Mixer').classList.remove("hide");
-        document.getElementById('Paddle').classList.remove("hide");
-        document.getElementById('CakeBatter').classList.remove("hide");
+    if (answer == 'tea pot') {
+        document.getElementById('TeaPot').classList.remove("hide");
+        document.getElementById('Tea').classList.remove("hide");
         document.getElementById('questionThree').classList.remove("hide");
         document.getElementById('questionTwo').classList.add("hide");
         document.getElementById('answerThree').classList.remove("hide");
@@ -73,10 +54,9 @@ function questionTwo() {
         document.getElementById('enterThree').classList.remove("hide");
         document.getElementById('enterTwo').classList.add("hide");
     }
-    else if (answer == 'Mixer') {
-        document.getElementById('Mixer').classList.remove("hide");
-        document.getElementById('Paddle').classList.remove("hide");
-        document.getElementById('CakeBatter').classList.remove("hide");
+    else if (answer == 'Tea Pot') {
+        document.getElementById('TeaPot').classList.remove("hide");
+        document.getElementById('Tea').classList.remove("hide");
         document.getElementById('questionThree').classList.remove("hide");
         document.getElementById('questionTwo').classList.add("hide");
         document.getElementById('answerThree').classList.remove("hide");
@@ -96,8 +76,9 @@ checkAnswerThree.addEventListener('click', (e) => {
 })
 function questionThree() {
     answer = document.getElementById('answerThree').value;
-    if (answer == 'boiling over') {
-        document.getElementById('Drips').classList.remove("hide");
+    if (answer == 'butter') {
+        document.getElementById('Butter').classList.remove("hide");
+        document.getElementById('ButterKnife').classList.remove("hide");
         document.getElementById('questionFour').classList.remove("hide");
         document.getElementById('questionThree').classList.add("hide");
         document.getElementById('answerFour').classList.remove("hide");
@@ -105,9 +86,9 @@ function questionThree() {
         document.getElementById('enterFour').classList.remove("hide");
         document.getElementById('enterThree').classList.add("hide");
     }
-    else if (answer == 'Boiling Over') {
-        document.getElementById('Drips').classList.remove("hide");
-        document.getElementById('questionFour').classList.remove("hide");
+    else if (answer == 'Butter') {
+        document.getElementById('Butter').classList.remove("hide");
+        document.getElementById('ButterKnife').classList.remove("hide");;
         document.getElementById('questionThree').classList.add("hide");
         document.getElementById('answerFour').classList.remove("hide");
         document.getElementById('answerThree').classList.add("hide");
@@ -126,9 +107,9 @@ checkAnswerFour.addEventListener('click', (e) => {
 })
 function questionFour() {
     answer = document.getElementById('answerFour').value;
-    if (answer == 'tea kettle') {
-        document.getElementById('TeaKettle').classList.remove("hide");
-        document.getElementById('Steam').classList.remove("hide");
+    if (answer == 'lava') {
+        document.getElementById('LavaCake').classList.remove("hide");
+        document.getElementById('Lava').classList.remove("hide");
         document.getElementById('questionFive').classList.remove("hide");
         document.getElementById('questionFour').classList.add("hide");
         document.getElementById('answerFive').classList.remove("hide");
@@ -136,29 +117,9 @@ function questionFour() {
         document.getElementById('enterFive').classList.remove("hide");
         document.getElementById('enterFour').classList.add("hide");
     }
-    else if (answer == 'Tea Kettle') {
-        document.getElementById('TeaKettle').classList.remove("hide");
-        document.getElementById('Steam').classList.remove("hide");
-        document.getElementById('questionFive').classList.remove("hide");
-        document.getElementById('questionFour').classList.add("hide");
-        document.getElementById('answerFive').classList.remove("hide");
-        document.getElementById('answerFour').classList.add("hide");
-        document.getElementById('enterFive').classList.remove("hide");
-        document.getElementById('enterFour').classList.add("hide");
-    }
-    if (answer == 'kettle') {
-        document.getElementById('TeaKettle').classList.remove("hide");
-        document.getElementById('Steam').classList.remove("hide");
-        document.getElementById('questionFive').classList.remove("hide");
-        document.getElementById('questionFour').classList.add("hide");
-        document.getElementById('answerFive').classList.remove("hide");
-        document.getElementById('answerFour').classList.add("hide");
-        document.getElementById('enterFive').classList.remove("hide");
-        document.getElementById('enterFour').classList.add("hide");
-    }
-    else if (answer == 'Kettle') {
-        document.getElementById('TeaKettle').classList.remove("hide");
-        document.getElementById('Steam').classList.remove("hide");
+    else if (answer == 'Lava') {
+        document.getElementById('LavaCake').classList.remove("hide");
+        document.getElementById('Lava').classList.remove("hide");
         document.getElementById('questionFive').classList.remove("hide");
         document.getElementById('questionFour').classList.add("hide");
         document.getElementById('answerFive').classList.remove("hide");
@@ -178,8 +139,9 @@ checkAnswerFive.addEventListener('click', (e) => {
 })
 function questionFive() {
     answer = document.getElementById('answerFive').value;
-    if (answer == 'muffins') {
-        document.getElementById('Muffins').classList.remove("hide");
+    if (answer == 'candle') {
+        document.getElementById('Candle').classList.remove("hide");
+        document.getElementById('Flame').classList.remove("hide");
         document.getElementById('questionFive').classList.add("hide");
         document.getElementById('dRoom').classList.remove("hide");
         document.getElementById('answerFive').classList.add("hide");
@@ -188,8 +150,9 @@ function questionFive() {
         document.getElementById('home').classList.remove("hide");
         document.getElementById('kRoom').classList.remove("hide");
     }
-    else if (answer == 'Muffins') {
-        document.getElementById('Muffins').classList.remove("hide");
+    else if (answer == 'Candle') {
+        document.getElementById('Candle').classList.remove("hide");
+        document.getElementById('Flame').classList.remove("hide");
         document.getElementById('questionFive').classList.add("hide");
         document.getElementById('dRoom').classList.remove("hide");
         document.getElementById('answerFive').classList.add("hide");
