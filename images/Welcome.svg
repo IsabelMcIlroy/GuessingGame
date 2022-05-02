@@ -32,10 +32,10 @@
     </g>
     <g id="Text">
         <g transform="matrix(1,0,0,1,32.5329,-26.6063)">
-            <text x="55.432px" y="102.12px" style="font-family:'BerlinSansFBDemi-Bold', 'Berlin Sans FB Demi', sans-serif;font-weight:700;font-size:80px;">Welcome</text>
+            <text x="55.432px" y="102.12px" style="font-family:'BerlinSansFBDemi-Bold', 'Berlin Sans FB Demi', sans-serif;font-weight:700;font-size:80px;fill:rgb(98,98,98);stroke:rgb(254,246,246);stroke-width:1px;stroke-linecap:butt;stroke-miterlimit:2;">Welcome</text>
         </g>
         <g transform="matrix(1,0,0,1,-14.8296,48.6165)">
-            <text x="55.432px" y="75.52px" style="font-family:'BerlinSansFBDemi-Bold', 'Berlin Sans FB Demi', sans-serif;font-weight:700;font-size:42px;">To the Guessing Game</text>
+            <text x="55.432px" y="75.52px" style="font-family:'BerlinSansFBDemi-Bold', 'Berlin Sans FB Demi', sans-serif;font-weight:700;font-size:42px;fill:rgb(182,176,176);stroke:rgb(255,252,252);stroke-width:1px;stroke-linecap:butt;stroke-miterlimit:2;">To the Guessing Game</text>
         </g>
     </g>
 </svg>

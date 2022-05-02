@@ -6,7 +6,7 @@ body{
     justify-content: center;
     margin:0;
     flex-direction:column;
-    background-color: #fffbee;
+    background-color: #000000;
     min-width: 350px;
 }
 /* Egg animation */
@@ -88,7 +88,7 @@ body{
 .instructions{
     text-align: center;
     font-family: Poppins, sans-serif;
-    background-color: #ffecad;
+    background-color: #0f6b67;
     margin-bottom: 10px;
 }
 h1, p, label{
@@ -97,7 +97,7 @@ h1, p, label{
 .guessingArea{
     text-align: center;
     font-family: Poppins, sans-serif;
-    background-color: #ffecad;
+    background-color: #0f6b67;
     padding: 5px;
     margin-top: 10px;
 }
