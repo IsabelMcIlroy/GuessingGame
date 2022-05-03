@@ -62,8 +62,8 @@ body{
         transform: rotateZ(45deg);
     }
 }
-/* enter */
 
+/* enter */
 #rooms, #welcome{
     width: 400px;
 
@@ -356,4 +356,73 @@ a{
 }
 #Time{
     transform: translateX(4px);
+}
+
+/* Bathroom */
+#Bubbles{
+    animation: rise 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes rise{
+    from {
+        transform: translate3d(0, 10px, 0);
+    }
+    to {
+        transform: translate3d(10px, -25px, 0);
+    }
+}
+#TapWater{
+    animation: water 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+@keyframes water{
+    from {
+        transform: scaleY(.9)
+    }
+    to {
+        transform: scaleY(1)
+    }
+}
+#RubberDuck{
+    animation: wavy 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes wavy{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(7deg);
+    }
+}
+#overflowing{
+    animation: over 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes over{
+    from {
+        transform: scaleY(.8)
+    }
+    to {
+        transform: scaleY(1)
+    }
+}
+#Toothbrush{
+    animation: wavy 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
 }
