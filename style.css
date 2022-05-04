@@ -364,13 +364,13 @@ a{
 
 /* Bathroom */
 #Bubbles{
-    animation: rise 5s;
+    animation: riseWater 5s;
     animation-iteration-count: infinite;
     animation-direction: alternate;
     transform-origin: bottom;
     transform-box: fill-box;
 }
-@keyframes rise{
+@keyframes riseWater{
     from {
         transform: translate3d(0, 0, 0);
     }
