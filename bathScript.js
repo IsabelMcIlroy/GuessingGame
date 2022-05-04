@@ -44,7 +44,7 @@ checkAnswerTwo.addEventListener('click', (e) => {
 })
 function questionTwo() {
     answer = document.getElementById('answerTwo').value;
-    if (answer == 'bubbles') {
+    if (answer == 'bubble') {
         document.getElementById('Bubbles').classList.remove("hide");
         document.getElementById('questionThree').classList.remove("hide");
         document.getElementById('questionTwo').classList.add("hide");
@@ -53,7 +53,7 @@ function questionTwo() {
         document.getElementById('enterThree').classList.remove("hide");
         document.getElementById('enterTwo').classList.add("hide");
     }
-    else if (answer == 'Bubbles') {
+    else if (answer == 'Bubble') {
         document.getElementById('Bubbles').classList.remove("hide");
         document.getElementById('questionThree').classList.remove("hide");
         document.getElementById('questionTwo').classList.add("hide");
