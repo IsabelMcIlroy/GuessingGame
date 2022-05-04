@@ -14,7 +14,7 @@ checkAnswer.addEventListener('click', (e) => {
 })
 function questionOne() {
     answer = document.getElementById('answerOne').value;
-    if (answer == 'mug') {
+    if (answer == 'tea cup') {
         document.getElementById('TeaCup').classList.remove("hide");
         document.getElementById('questionTwo').classList.remove("hide");
         document.getElementById('questionOne').classList.add("hide");
@@ -23,7 +23,7 @@ function questionOne() {
         document.getElementById('enterTwo').classList.remove("hide");
         document.getElementById('enter').classList.add("hide"); 
     }
-    else if (answer == 'Mug') {
+    else if (answer == 'Tea Cup') {
         document.getElementById('TeaCup').classList.remove("hide");
         document.getElementById('questionTwo').classList.remove("hide");
         document.getElementById('questionOne').classList.add("hide");

@@ -8,6 +8,7 @@ body{
     flex-direction:column;
     background-color: #000000;
     min-width: 350px;
+    color: #ffffff;
 }
 /* Egg animation */
 .eggContainer{
@@ -105,17 +106,17 @@ h1, p, label{
 }
 button{
     font-family: Poppins, sans-serif;
-    background-color: #adb5ff;
-    padding: 2px 4px;
-    border: 2px double #5a5e86;
-    border-radius: 10px;
+    background-color: #A5AA52;
+    padding: 4px 8px;
+    border-radius: 15px;
+    color: #ffffff;
 }
 button:hover{
     font-weight: bold;
 }
 input{
     text-align: end;
-    border: 2px double #000000;
+    padding: 4px 8px;
     border-radius: 10px;
 }
 a{
