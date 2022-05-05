@@ -162,6 +162,6 @@ function questionFive() {
         document.getElementById('kRoom').classList.remove("hide");
     }
     else {
-        document.getElementById('answerFour').value = 'try again!'
+        document.getElementById('answerFive').value = 'try again!'
     }
 }

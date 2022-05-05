@@ -126,26 +126,6 @@ checkAnswerFour.addEventListener('click', (e) => {
 })
 function questionFour() {
     answer = document.getElementById('answerFour').value;
-    if (answer == 'tea kettle') {
-        document.getElementById('TeaKettle').classList.remove("hide");
-        document.getElementById('Steam').classList.remove("hide");
-        document.getElementById('questionFive').classList.remove("hide");
-        document.getElementById('questionFour').classList.add("hide");
-        document.getElementById('answerFive').classList.remove("hide");
-        document.getElementById('answerFour').classList.add("hide");
-        document.getElementById('enterFive').classList.remove("hide");
-        document.getElementById('enterFour').classList.add("hide");
-    }
-    else if (answer == 'Tea Kettle') {
-        document.getElementById('TeaKettle').classList.remove("hide");
-        document.getElementById('Steam').classList.remove("hide");
-        document.getElementById('questionFive').classList.remove("hide");
-        document.getElementById('questionFour').classList.add("hide");
-        document.getElementById('answerFive').classList.remove("hide");
-        document.getElementById('answerFour').classList.add("hide");
-        document.getElementById('enterFive').classList.remove("hide");
-        document.getElementById('enterFour').classList.add("hide");
-    }
     if (answer == 'kettle') {
         document.getElementById('TeaKettle').classList.remove("hide");
         document.getElementById('Steam').classList.remove("hide");
@@ -199,6 +179,6 @@ function questionFive() {
         document.getElementById('kRoom').classList.remove("hide");
     }
     else {
-        document.getElementById('answerFour').value = 'try again!'
+        document.getElementById('answerFive').value = 'try again!'
     }
 }

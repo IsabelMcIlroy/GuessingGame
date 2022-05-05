@@ -135,7 +135,7 @@ checkAnswerFive.addEventListener('click', (e) => {
 })
 function questionFive() {
     answer = document.getElementById('answerFive').value;
-    if (answer == 'towels') {
+    if (answer == 'towel') {
         document.getElementById('Towels').classList.remove("hide");
         document.getElementById('questionFive').classList.add("hide");
         document.getElementById('dRoom').classList.remove("hide");
@@ -145,7 +145,7 @@ function questionFive() {
         document.getElementById('home').classList.remove("hide");
         document.getElementById('kRoom').classList.remove("hide");
     }
-    else if (answer == 'Towels') {
+    else if (answer == 'Towel') {
         document.getElementById('Towels').classList.remove("hide");
         document.getElementById('questionFive').classList.add("hide");
         document.getElementById('dRoom').classList.remove("hide");
@@ -156,6 +156,6 @@ function questionFive() {
         document.getElementById('kRoom').classList.remove("hide");
     }
     else {
-        document.getElementById('answerFour').value = 'try again!'
+        document.getElementById('answerFive').value = 'try again!'
     }
 }
