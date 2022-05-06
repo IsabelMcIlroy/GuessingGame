@@ -430,3 +430,34 @@ a{
     transform-origin: bottom;
     transform-box: fill-box;
 }
+
+/* Classroom */
+/* clock */
+#Mins{
+    animation: minutes 6s;
+    animation-iteration-count: infinite;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+@keyframes  minutes{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+#Hrs{
+    animation: hours 60s;
+    animation-iteration-count: infinite;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes  hours{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
