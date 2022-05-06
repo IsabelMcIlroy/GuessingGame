@@ -144,6 +144,7 @@ function questionFive() {
         document.getElementById('enterFive').classList.add("hide");
         document.getElementById('home').classList.remove("hide");
         document.getElementById('kRoom').classList.remove("hide");
+        document.getElementById('cRoom').classList.remove("hide");
     }
     else if (answer == 'Towel') {
         document.getElementById('Towels').classList.remove("hide");
@@ -154,6 +155,7 @@ function questionFive() {
         document.getElementById('enterFive').classList.add("hide");
         document.getElementById('home').classList.remove("hide");
         document.getElementById('kRoom').classList.remove("hide");
+        document.getElementById('cRoom').classList.remove("hide");
     }
     else {
         document.getElementById('answerFive').value = 'try again!'
