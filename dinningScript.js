@@ -23,7 +23,7 @@ function questionOne() {
         document.getElementById('enterTwo').classList.remove("hide");
         document.getElementById('enter').classList.add("hide"); 
     }
-    else if (answer == 'Tea Cup') {
+    else if (answer == 'Tea cup') {
         document.getElementById('TeaCup').classList.remove("hide");
         document.getElementById('questionTwo').classList.remove("hide");
         document.getElementById('questionOne').classList.add("hide");
@@ -54,7 +54,7 @@ function questionTwo() {
         document.getElementById('enterThree').classList.remove("hide");
         document.getElementById('enterTwo').classList.add("hide");
     }
-    else if (answer == 'Tea Pot') {
+    else if (answer == 'Tea pot') {
         document.getElementById('TeaPot').classList.remove("hide");
         document.getElementById('Tea').classList.remove("hide");
         document.getElementById('questionThree').classList.remove("hide");

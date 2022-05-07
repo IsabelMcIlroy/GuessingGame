@@ -41,7 +41,7 @@ function questionOne() {
         document.getElementById('enterTwo').classList.remove("hide");
         document.getElementById('enter').classList.add("hide"); 
     }
-    else if (answer == 'Rolling Pin') {
+    else if (answer == 'Rolling pin') {
         document.getElementById('RollingPin').classList.remove("hide");
         document.getElementById('questionTwo').classList.remove("hide");
         document.getElementById('questionOne').classList.add("hide");
@@ -105,7 +105,7 @@ function questionThree() {
         document.getElementById('enterFour').classList.remove("hide");
         document.getElementById('enterThree').classList.add("hide");
     }
-    else if (answer == 'Boiling Over') {
+    else if (answer == 'Boiling over') {
         document.getElementById('Drips').classList.remove("hide");
         document.getElementById('questionFour').classList.remove("hide");
         document.getElementById('questionThree').classList.add("hide");
