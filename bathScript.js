@@ -23,7 +23,7 @@ function questionOne() {
         document.getElementById('enterTwo').classList.remove("hide");
         document.getElementById('enter').classList.add("hide"); 
     }
-    else if (answer == 'Rubber Duck') {
+    else if (answer == 'Rubber duck') {
         document.getElementById('RubberDuck').classList.remove("hide");
         document.getElementById('questionTwo').classList.remove("hide");
         document.getElementById('questionOne').classList.add("hide");
@@ -85,6 +85,7 @@ function questionThree() {
     }
     else if (answer == 'Toothbrush') {
         document.getElementById('Toothbrush').classList.remove("hide");
+        document.getElementById('questionFour').classList.remove("hide");
         document.getElementById('questionThree').classList.add("hide");
         document.getElementById('answerFour').classList.remove("hide");
         document.getElementById('answerThree').classList.add("hide");
