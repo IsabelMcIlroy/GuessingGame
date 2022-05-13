@@ -1,9 +1,4 @@
 // kitchen page
-document.getElementById('answerOne').value = ''
-document.getElementById('answerTwo').value = ''
-document.getElementById('answerThree').value = ''
-document.getElementById('answerFour').value = ''
-document.getElementById('answerFive').value = ''
 
 // display time
 const clock = document.getElementById('time');
@@ -25,11 +20,6 @@ console.log(myTimeFormatted);
 
 // guess word
 // question one
-const checkAnswer = document.getElementById('enter');  
-checkAnswer.addEventListener('click', (e) => {
-    e.preventDefault();
-    questionOne();
-})
 function questionOne() {
     answer = document.getElementById('answerOne').value;
     if (answer == 'rolling pin') {
@@ -55,11 +45,6 @@ function questionOne() {
     }
 }
 // question two
-const checkAnswerTwo = document.getElementById('enterTwo');  
-checkAnswerTwo.addEventListener('click', (e) => {
-    e.preventDefault();
-    questionTwo();
-})
 function questionTwo() {
     answer = document.getElementById('answerTwo').value;
     if (answer == 'mixer') {
@@ -89,11 +74,6 @@ function questionTwo() {
     }
 }
 // question three
-const checkAnswerThree = document.getElementById('enterThree');  
-checkAnswerThree.addEventListener('click', (e) => {
-    e.preventDefault();
-    questionThree();
-})
 function questionThree() {
     answer = document.getElementById('answerThree').value;
     if (answer == 'boiling over') {
@@ -119,11 +99,6 @@ function questionThree() {
     }
 }
 // question four
-const checkAnswerFour = document.getElementById('enterFour');  
-checkAnswerFour.addEventListener('click', (e) => {
-    e.preventDefault();
-    questionFour();
-})
 function questionFour() {
     answer = document.getElementById('answerFour').value;
     if (answer == 'kettle') {
@@ -151,11 +126,6 @@ function questionFour() {
     }
 }
 // question five
-const checkAnswerFive = document.getElementById('enterFive');  
-checkAnswerFive.addEventListener('click', (e) => {
-    e.preventDefault();
-    questionFive();
-})
 function questionFive() {
     answer = document.getElementById('answerFive').value;
     if (answer == 'muffins') {
