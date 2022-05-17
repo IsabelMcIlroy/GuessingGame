@@ -22,7 +22,7 @@ console.log(myTimeFormatted);
 // question one
 function questionOne() {
     answer = document.getElementById('answerOne').value;
-    if (answer == 'rolling pin' || 'Rolling pin') {
+    if (answer === 'rolling pin' || 'Rolling pin') {
         document.getElementById('RollingPin').classList.remove("hide");
         document.getElementById('questionTwo').classList.remove("hide");
         document.getElementById('questionOne').classList.add("hide");
@@ -67,7 +67,7 @@ function questionTwo() {
 // question three
 function questionThree() {
     answer = document.getElementById('answerThree').value;
-    if (answer == 'boiling over' || 'Boiling over') {
+    if (answer === 'boiling over' || 'Boiling over') {
         document.getElementById('Drips').classList.remove("hide");
         document.getElementById('questionFour').classList.remove("hide");
         document.getElementById('questionThree').classList.add("hide");
@@ -83,7 +83,7 @@ function questionThree() {
 // question four
 function questionFour() {
     answer = document.getElementById('answerFour').value;
-    if (answer == 'kettle' || 'Kettle') {
+    if (answer === 'kettle' || 'Kettle') {
         document.getElementById('TeaKettle').classList.remove("hide");
         document.getElementById('Steam').classList.remove("hide");
         document.getElementById('questionFive').classList.remove("hide");
@@ -100,7 +100,7 @@ function questionFour() {
 // question five
 function questionFive() {
     answer = document.getElementById('answerFive').value;
-    if (answer == 'muffins' || 'Muffins') {
+    if (answer === 'muffins' || 'Muffins') {
         document.getElementById('Muffins').classList.remove("hide");
         document.getElementById('questionFive').classList.add("hide");
         document.getElementById('dRoom').classList.remove("hide");
