@@ -4,7 +4,7 @@
 // question one
 function questionOne() {
     answer = document.getElementById('answerOne').value;
-    if (answer == 'rubber duck') {
+    if (answer == 'rubber duck' || 'Rubber duck') {
         document.getElementById('RubberDuck').classList.remove("hide");
         document.getElementById('questionTwo').classList.remove("hide");
         document.getElementById('questionOne').classList.add("hide");
@@ -12,15 +12,6 @@ function questionOne() {
         document.getElementById('answerOne').classList.add("hide");
         document.getElementById('enterTwo').classList.remove("hide");
         document.getElementById('enter').classList.add("hide"); 
-    }
-    else if (answer == 'Rubber duck') {
-        document.getElementById('RubberDuck').classList.remove("hide");
-        document.getElementById('questionTwo').classList.remove("hide");
-        document.getElementById('questionOne').classList.add("hide");
-        document.getElementById('answerTwo').classList.remove("hide");
-        document.getElementById('answerOne').classList.add("hide");
-        document.getElementById('enterTwo').classList.remove("hide");
-        document.getElementById('enter').classList.add("hide");
     }
     else {
         document.getElementById('answerOne').value = 'try again!'
@@ -54,16 +45,7 @@ function questionTwo() {
 // question three
 function questionThree() {
     answer = document.getElementById('answerThree').value;
-    if (answer == 'toothbrush') {
-        document.getElementById('Toothbrush').classList.remove("hide");
-        document.getElementById('questionFour').classList.remove("hide");
-        document.getElementById('questionThree').classList.add("hide");
-        document.getElementById('answerFour').classList.remove("hide");
-        document.getElementById('answerThree').classList.add("hide");
-        document.getElementById('enterFour').classList.remove("hide");
-        document.getElementById('enterThree').classList.add("hide");
-    }
-    else if (answer == 'Toothbrush') {
+    if (answer == 'toothbrush' || 'Toothbrush') {
         document.getElementById('Toothbrush').classList.remove("hide");
         document.getElementById('questionFour').classList.remove("hide");
         document.getElementById('questionThree').classList.add("hide");
@@ -79,17 +61,7 @@ function questionThree() {
 // question four
 function questionFour() {
     answer = document.getElementById('answerFour').value;
-    if (answer == 'tap') {
-        document.getElementById('TapWater').classList.remove("hide");
-        document.getElementById('overflowing').classList.remove("hide");
-        document.getElementById('questionFive').classList.remove("hide");
-        document.getElementById('questionFour').classList.add("hide");
-        document.getElementById('answerFive').classList.remove("hide");
-        document.getElementById('answerFour').classList.add("hide");
-        document.getElementById('enterFive').classList.remove("hide");
-        document.getElementById('enterFour').classList.add("hide");
-    }
-    else if (answer == 'Tap') {
+    if (answer == 'tap'|| 'Tap') {
         document.getElementById('TapWater').classList.remove("hide");
         document.getElementById('overflowing').classList.remove("hide");
         document.getElementById('questionFive').classList.remove("hide");
@@ -106,18 +78,7 @@ function questionFour() {
 // question five
 function questionFive() {
     answer = document.getElementById('answerFive').value;
-    if (answer == 'towel') {
-        document.getElementById('Towels').classList.remove("hide");
-        document.getElementById('questionFive').classList.add("hide");
-        document.getElementById('dRoom').classList.remove("hide");
-        document.getElementById('answerFive').classList.add("hide");
-        document.getElementById('bRoom').classList.remove("hide");
-        document.getElementById('enterFive').classList.add("hide");
-        document.getElementById('home').classList.remove("hide");
-        document.getElementById('kRoom').classList.remove("hide");
-        document.getElementById('cRoom').classList.remove("hide");
-    }
-    else if (answer == 'Towel') {
+    if (answer == 'towel' || 'Towel') {
         document.getElementById('Towels').classList.remove("hide");
         document.getElementById('questionFive').classList.add("hide");
         document.getElementById('dRoom').classList.remove("hide");
