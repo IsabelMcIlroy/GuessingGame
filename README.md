@@ -1,4 +1,5 @@
 # The Word Guessing Game 
+![Screenshot](images/welcome.jpg)
 # Description 
 On opening the game you will be greeted with an egg to hatch - which once clicked will animate. You will then be prompted to pick a word guessing room. Once selected you will enter the Word Guessing game for that room, where you will guess words based on clues. Once the correct word is guessed the item will appear in the room. There are five questions in each room once finished you will have the option to go to another guessing room. One of the rooms is a classroom to test you on your JavaScript knowledge. 
 
