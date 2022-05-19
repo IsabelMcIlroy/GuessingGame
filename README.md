@@ -12,8 +12,8 @@ When I add the classroom I got my brother to review the JavaScript questions and
 This project allowed to me to have some more fun with JavaScript!
 
 # Built With
-- HTML\
-- CSS\
+- HTML
+- CSS
 - JavaScript.
 
 # Link to Demo Site
