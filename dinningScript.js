@@ -4,7 +4,7 @@
 // question one
 function questionOne() {
     answer = document.getElementById('answerOne').value;
-    if (answer === 'tea cup' || 'Tea cup') {
+    if (answer === 'tea cup' | 'Tea cup') {
         document.getElementById('TeaCup').classList.remove("hide");
         document.getElementById('questionTwo').classList.remove("hide");
         document.getElementById('questionOne').classList.add("hide");
@@ -20,7 +20,7 @@ function questionOne() {
 // question two
 function questionTwo() {
     answer = document.getElementById('answerTwo').value;
-    if (answer === 'tea pot' || 'Tea pot') {
+    if (answer === 'tea pot' | 'Tea pot') {
         document.getElementById('TeaPot').classList.remove("hide");
         document.getElementById('Tea').classList.remove("hide");
         document.getElementById('questionThree').classList.remove("hide");
@@ -37,7 +37,7 @@ function questionTwo() {
 // question three
 function questionThree() {
     answer = document.getElementById('answerThree').value;
-    if (answer === 'butter' || 'Butter') {
+    if (answer === 'butter' | 'Butter') {
         document.getElementById('Butter').classList.remove("hide");
         document.getElementById('ButterKnife').classList.remove("hide");
         document.getElementById('questionFour').classList.remove("hide");
@@ -54,7 +54,7 @@ function questionThree() {
 // question four
 function questionFour() {
     answer = document.getElementById('answerFour').value;
-    if (answer === 'lava' || 'Lava') {
+    if (answer === 'lava' | 'Lava') {
         document.getElementById('LavaCake').classList.remove("hide");
         document.getElementById('Lava').classList.remove("hide");
         document.getElementById('questionFive').classList.remove("hide");
@@ -71,7 +71,7 @@ function questionFour() {
 // question five
 function questionFive() {
     answer = document.getElementById('answerFive').value;
-    if (answer === 'candle' || 'Candle') {
+    if (answer === 'candle' | 'Candle') {
         document.getElementById('Candle').classList.remove("hide");
         document.getElementById('Flame').classList.remove("hide");
         document.getElementById('questionFive').classList.add("hide");
