@@ -5,7 +5,7 @@
 // question one
 function questionOne() {
     answer = document.getElementById('answerOne').value;
-    if (answer === 'functions' | 'Functions') {
+    if (answer === 'functions' || answer === 'Functions') {
         document.getElementById('Text').classList.add("hide");
         document.getElementById('Answers').classList.remove("hide");
         document.getElementById('One').classList.remove("hide");
@@ -23,7 +23,7 @@ function questionOne() {
 // question two
 function questionTwo() {
     answer = document.getElementById('answerTwo').value;
-    if (answer === 'array' | 'Array') {
+    if (answer === 'array' || answer ===  'Array') {
         document.getElementById('Two').classList.remove("hide");
         document.getElementById('questionThree').classList.remove("hide");
         document.getElementById('questionTwo').classList.add("hide");
@@ -39,7 +39,7 @@ function questionTwo() {
 // question three
 function questionThree() {
     answer = document.getElementById('answerThree').value;
-    if (answer === 'constant' | 'Constant') {
+    if (answer === 'constant' || answer ===  'Constant') {
         document.getElementById('Three').classList.remove("hide");
         document.getElementById('questionFour').classList.remove("hide");
         document.getElementById('questionThree').classList.add("hide");
@@ -55,7 +55,7 @@ function questionThree() {
 // question four
 function questionFour() {
     answer = document.getElementById('answerFour').value;
-    if (answer === 'return' | 'Return') {
+    if (answer === 'return' || answer ===  'Return') {
         document.getElementById('Four').classList.remove("hide");
         document.getElementById('questionFive').classList.remove("hide");
         document.getElementById('questionFour').classList.add("hide");
@@ -71,7 +71,7 @@ function questionFour() {
 // question five
 function questionFive() {
     answer = document.getElementById('answerFive').value;
-    if (answer === 'method' | 'Method') {
+    if (answer === 'method' || answer ===  'Method') {
         document.getElementById('Five').classList.remove("hide");
         document.getElementById('questionFive').classList.add("hide");
         document.getElementById('dRoom').classList.remove("hide");
