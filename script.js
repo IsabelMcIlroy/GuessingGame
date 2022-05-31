@@ -36,3 +36,40 @@ checkAnswerFive.addEventListener('click', (e) => {
     e.preventDefault();
     questionFive();
 })
+
+// clear answer boxes
+// question one
+function clearOne() {
+    const clearinput = function() {  
+        document.getElementById('answerOne').value = '' 
+ }
+ setTimeout(clearinput, 1000); 
+ }
+// question two
+function clearTwo() {
+    const clearinput = function() {  
+        document.getElementById('answerTwo').value = '' 
+ }
+ setTimeout(clearinput, 1000); 
+ }
+ // question three
+function clearThree() {
+    const clearinput = function() {  
+        document.getElementById('answerThree').value = '' 
+ }
+ setTimeout(clearinput, 1000); 
+ }
+ // question four
+function clearFour() {
+    const clearinput = function() {  
+        document.getElementById('answerFour').value = '' 
+ }
+ setTimeout(clearinput, 1000); 
+ }
+ // question five
+function clearFive() {
+    const clearinput = function() {  
+        document.getElementById('answerFive').value = '' 
+ }
+ setTimeout(clearinput, 1000); 
+ }

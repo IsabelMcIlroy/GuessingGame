@@ -15,6 +15,7 @@ function questionOne() {
     }
     else {
         document.getElementById('answerOne').value = 'try again!'
+        clearOne();
     }
 }
 // question two
@@ -32,6 +33,7 @@ function questionTwo() {
     }
     else {
         document.getElementById('answerTwo').value = 'try again!'
+        clearTwo();
     }
 }
 // question three
@@ -49,6 +51,7 @@ function questionThree() {
     }
     else {
         document.getElementById('answerThree').value = 'try again!'
+        clearThree();
     }
 }
 // question four
@@ -66,6 +69,7 @@ function questionFour() {
     }
     else {
         document.getElementById('answerFour').value = 'try again!'
+        clearFour();
     }
 }
 // question five
@@ -85,5 +89,6 @@ function questionFive() {
     }
     else {
         document.getElementById('answerFive').value = 'try again!'
+        clearFive();
     }
 }

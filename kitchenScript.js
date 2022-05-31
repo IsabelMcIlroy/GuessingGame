@@ -33,23 +33,13 @@ function questionOne() {
     }
     else {
         document.getElementById('answerOne').value = 'try again!'
+        clearOne();
     }
 }
 // question two
 function questionTwo() {
     answer = document.getElementById('answerTwo').value;
-    if (answer == 'mixer') {
-        document.getElementById('Mixer').classList.remove("hide");
-        document.getElementById('Paddle').classList.remove("hide");
-        document.getElementById('CakeBatter').classList.remove("hide");
-        document.getElementById('questionThree').classList.remove("hide");
-        document.getElementById('questionTwo').classList.add("hide");
-        document.getElementById('answerThree').classList.remove("hide");
-        document.getElementById('answerTwo').classList.add("hide");
-        document.getElementById('enterThree').classList.remove("hide");
-        document.getElementById('enterTwo').classList.add("hide");
-    }
-    else if (answer == 'Mixer') {
+    if (answer == 'mixer' || answer == 'Mixer') {
         document.getElementById('Mixer').classList.remove("hide");
         document.getElementById('Paddle').classList.remove("hide");
         document.getElementById('CakeBatter').classList.remove("hide");
@@ -62,6 +52,7 @@ function questionTwo() {
     }
     else {
         document.getElementById('answerTwo').value = 'try again!'
+        clearThree();
     }
 }
 // question three
@@ -78,6 +69,7 @@ function questionThree() {
     }
     else {
         document.getElementById('answerThree').value = 'try again!'
+        clearThree();
     }
 }
 // question four
@@ -95,6 +87,7 @@ function questionFour() {
     }
     else {
         document.getElementById('answerFour').value = 'try again!'
+        clearFour();
     }
 }
 // question five
@@ -113,5 +106,6 @@ function questionFive() {
     }
     else {
         document.getElementById('answerFive').value = 'try again!'
+        clearFive();
     }
 }
