@@ -1,11 +1,11 @@
 # The Word Guessing Game 
 ![Screenshot](images/welcome.jpg)
 # Description 
-On opening the game you will be greeted with an egg to hatch - which once clicked will animate. You will then be prompted to pick a word guessing room. Once selected you will enter the Word Guessing game for that room, where you will guess words based on clues. Once the correct word is guessed the item will appear in the room. There are five questions in each room once finished you will have the option to go to another guessing room. One of the rooms is a classroom to test you on your JavaScript knowledge.\
-I placed the svgs for the rooms and egg in the html so I could use the id's to animate the items. This also allowed me to hide items before they were guessed.
+On opening the game, you will be greeted with an egg to hatch - which once clicked will animate. You will then be prompted to pick a word guessing room. Once selected you will enter the Word Guessing game for that room, where you will guess words based on clues. Once the correct word is guessed the item will appear in the room. There are five questions in each room once finished you will have the option to go to another guessing room. One of the rooms is a classroom to test you on your JavaScript knowledge.\
+I placed the svgs for the rooms and egg in the html so I could use the ids to animate the items. This also allowed me to hide items before they were guessed.
 
 # Motivation
-A fun project to help me learn javaScript and css animations which also allowed me to have some fun illustrating.
+A fun project to help me learn JavaScript and CSS animations which also allowed me to have some fun illustrating.
 
 # Reflection
 On first review of this game with Gillian - she found the clues hard to understand - so I added in the number of expected letters for the words in the clue to make it more straight foward.\
