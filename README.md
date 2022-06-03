@@ -8,9 +8,9 @@ I placed the svgs for the rooms and egg in the html so I could use the ids to an
 A fun project to help me learn JavaScript and CSS animations which also allowed me to have some fun illustrating.
 
 # Reflection
-On first review of this game with Gillian - she found the clues hard to understand - so I added in the number of expected letters for the words in the clue to make it more straight foward.\
-I then got my mom to play the game and she got all the words no problem. Though she played it on her phone and found if she used the autofill feature the answers would be wrong, even when they were correct. So I disabled autofill on the inputs.\
-When I add the classroom I got my brother to review the JavaScript questions and he approved the questions as understandable and answered them!\
+On first review of this game with Gillian - she found the clues hard to understand - so I added in the number of expected letters for the words in the clue to make it more straight forward.\
+I then got my mom to play the game and she got all the words no problem. Though she played it on her phone and found if she used the autofill feature the answers would be wrong, even when they were correct. So, I disabled autofill on the inputs.\
+When I add the classroom, I got my brother to review the JavaScript questions and he approved the questions as understandable and answered them!\
 This project allowed to me to have some more fun with JavaScript!
 
 # Built With
