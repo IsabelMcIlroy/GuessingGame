@@ -4,8 +4,9 @@
 // guess word
 // question one
 function questionOne() {
-    answer = document.getElementById('answerOne').value;
-    if (answer === 'functions' || answer === 'Functions') {
+    let getAnswer = document.getElementById('answerOne').value;
+    let answer = getAnswer.toLowerCase().trim()
+    if (answer === 'functions') {
         document.getElementById('Text').classList.add("hide");
         document.getElementById('Answers').classList.remove("hide");
         document.getElementById('One').classList.remove("hide");
@@ -23,8 +24,9 @@ function questionOne() {
 }
 // question two
 function questionTwo() {
-    answer = document.getElementById('answerTwo').value;
-    if (answer === 'array' || answer ===  'Array') {
+    let getAnswer = document.getElementById('answerTwo').value;
+    let answer = getAnswer.toLowerCase().trim()
+    if (answer === 'array') {
         document.getElementById('Two').classList.remove("hide");
         document.getElementById('questionThree').classList.remove("hide");
         document.getElementById('questionTwo').classList.add("hide");
@@ -40,8 +42,9 @@ function questionTwo() {
 }
 // question three
 function questionThree() {
-    answer = document.getElementById('answerThree').value;
-    if (answer === 'constant' || answer ===  'Constant') {
+    let getAnswer = document.getElementById('answerThree').value;
+    let answer = getAnswer.toLowerCase().trim()
+    if (answer === 'constant') {
         document.getElementById('Three').classList.remove("hide");
         document.getElementById('questionFour').classList.remove("hide");
         document.getElementById('questionThree').classList.add("hide");
@@ -57,8 +60,9 @@ function questionThree() {
 }
 // question four
 function questionFour() {
-    answer = document.getElementById('answerFour').value;
-    if (answer === 'return' || answer ===  'Return') {
+    let getAnswer = document.getElementById('answerFour').value;
+    let answer = getAnswer.toLowerCase().trim()
+    if (answer === 'return') {
         document.getElementById('Four').classList.remove("hide");
         document.getElementById('questionFive').classList.remove("hide");
         document.getElementById('questionFour').classList.add("hide");
@@ -74,8 +78,9 @@ function questionFour() {
 }
 // question five
 function questionFive() {
-    answer = document.getElementById('answerFive').value;
-    if (answer === 'method' || answer ===  'Method') {
+    let getAnswer = document.getElementById('answerFive').value;
+    let answer = getAnswer.toLowerCase().trim()
+    if (answer === 'method') {
         document.getElementById('Five').classList.remove("hide");
         document.getElementById('questionFive').classList.add("hide");
         document.getElementById('dRoom').classList.remove("hide");

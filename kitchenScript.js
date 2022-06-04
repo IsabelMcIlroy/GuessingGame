@@ -21,8 +21,9 @@ console.log(myTimeFormatted);
 // guess word
 // question one
 function questionOne() {
-    answer = document.getElementById('answerOne').value;
-    if (answer === 'rolling pin' || answer ===  'Rolling pin') {
+    let getAnswer = document.getElementById('answerOne').value;
+    let answer = getAnswer.toLowerCase().trim();
+    if (answer === 'rolling pin') {
         document.getElementById('RollingPin').classList.remove("hide");
         document.getElementById('questionTwo').classList.remove("hide");
         document.getElementById('questionOne').classList.add("hide");
@@ -38,8 +39,9 @@ function questionOne() {
 }
 // question two
 function questionTwo() {
-    answer = document.getElementById('answerTwo').value;
-    if (answer == 'mixer' || answer == 'Mixer') {
+    let getAnswer = document.getElementById('answerTwo').value;
+    let answer = getAnswer.toLowerCase().trim();
+    if (answer == 'mixer') {
         document.getElementById('Mixer').classList.remove("hide");
         document.getElementById('Paddle').classList.remove("hide");
         document.getElementById('CakeBatter').classList.remove("hide");
@@ -57,8 +59,9 @@ function questionTwo() {
 }
 // question three
 function questionThree() {
-    answer = document.getElementById('answerThree').value;
-    if (answer === 'boiling over' || answer ===  'Boiling over') {
+    let getAnswer = document.getElementById('answerThree').value;
+    let answer = getAnswer.toLowerCase().trim();
+    if (answer === 'boiling over') {
         document.getElementById('Drips').classList.remove("hide");
         document.getElementById('questionFour').classList.remove("hide");
         document.getElementById('questionThree').classList.add("hide");
@@ -74,8 +77,9 @@ function questionThree() {
 }
 // question four
 function questionFour() {
-    answer = document.getElementById('answerFour').value;
-    if (answer === 'kettle' || answer ===  'Kettle') {
+    let getAnswer = document.getElementById('answerFour').value;
+    let answer = getAnswer.toLowerCase().trim();
+    if (answer === 'kettle') {
         document.getElementById('TeaKettle').classList.remove("hide");
         document.getElementById('Steam').classList.remove("hide");
         document.getElementById('questionFive').classList.remove("hide");
@@ -92,8 +96,9 @@ function questionFour() {
 }
 // question five
 function questionFive() {
-    answer = document.getElementById('answerFive').value;
-    if (answer === 'muffins' || answer ===  'Muffins') {
+    let getAnswer = document.getElementById('answerFive').value;
+    let answer = getAnswer.toLowerCase().trim();
+    if (answer === 'muffins') {
         document.getElementById('Muffins').classList.remove("hide");
         document.getElementById('questionFive').classList.add("hide");
         document.getElementById('dRoom').classList.remove("hide");

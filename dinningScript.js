@@ -3,8 +3,9 @@
 // guess word
 // question one
 function questionOne() {
-    answer = document.getElementById('answerOne').value;
-    if (answer === 'tea cup' || answer ===  'Tea cup') {
+    let getAnswer = document.getElementById('answerOne').value;
+    let answer = getAnswer.toLowerCase().trim();
+    if (answer === 'tea cup') {
         document.getElementById('TeaCup').classList.remove("hide");
         document.getElementById('questionTwo').classList.remove("hide");
         document.getElementById('questionOne').classList.add("hide");
@@ -20,8 +21,9 @@ function questionOne() {
 }
 // question two
 function questionTwo() {
-    answer = document.getElementById('answerTwo').value;
-    if (answer === 'tea pot' || answer ===  'Tea pot') {
+    let getAnswer = document.getElementById('answerTwo').value;
+    let answer = getAnswer.toLowerCase().trim();
+    if (answer === 'tea pot') {
         document.getElementById('TeaPot').classList.remove("hide");
         document.getElementById('Tea').classList.remove("hide");
         document.getElementById('questionThree').classList.remove("hide");
@@ -38,8 +40,9 @@ function questionTwo() {
 }
 // question three
 function questionThree() {
-    answer = document.getElementById('answerThree').value;
-    if (answer === 'butter' || answer ===  'Butter') {
+    let getAnswer = document.getElementById('answerThree').value;
+    let answer = getAnswer.toLowerCase().trim();
+    if (answer === 'butter') {
         document.getElementById('Butter').classList.remove("hide");
         document.getElementById('ButterKnife').classList.remove("hide");
         document.getElementById('questionFour').classList.remove("hide");
@@ -56,8 +59,9 @@ function questionThree() {
 }
 // question four
 function questionFour() {
-    answer = document.getElementById('answerFour').value;
-    if (answer === 'lava' || answer ===  'Lava') {
+    let getAnswer = document.getElementById('answerFour').value;
+    let answer = getAnswer.toLowerCase().trim();
+    if (answer === 'lava') {
         document.getElementById('LavaCake').classList.remove("hide");
         document.getElementById('Lava').classList.remove("hide");
         document.getElementById('questionFive').classList.remove("hide");
@@ -74,8 +78,9 @@ function questionFour() {
 }
 // question five
 function questionFive() {
-    answer = document.getElementById('answerFive').value;
-    if (answer === 'candle' || answer ===  'Candle') {
+    let getAnswer = document.getElementById('answerFive').value;
+    let answer = getAnswer.toLowerCase().trim();
+    if (answer === 'candle') {
         document.getElementById('Candle').classList.remove("hide");
         document.getElementById('Flame').classList.remove("hide");
         document.getElementById('questionFive').classList.add("hide");
