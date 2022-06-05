@@ -4,7 +4,7 @@
 // question one
 function questionOne() {
     let getAnswer = document.getElementById('answerOne').value;
-    let answer = getAnswer.toLowerCase().trim()
+    let answer = getAnswer.toLowerCase().trim();
     if (answer === 'rubber duck') {
         document.getElementById('RubberDuck').classList.remove("hide");
         document.getElementById('questionTwo').classList.remove("hide");
@@ -22,7 +22,7 @@ function questionOne() {
 // question two
 function questionTwo() {
     let getAnswer = document.getElementById('answerTwo').value;
-    let answer = getAnswer.toLowerCase().trim()
+    let answer = getAnswer.toLowerCase().trim();
     if (answer == 'bubble') {
         document.getElementById('Bubbles').classList.remove("hide");
         document.getElementById('questionThree').classList.remove("hide");
@@ -40,7 +40,7 @@ function questionTwo() {
 // question three
 function questionThree() {
     let getAnswer = document.getElementById('answerThree').value;
-    let answer = getAnswer.toLowerCase().trim()
+    let answer = getAnswer.toLowerCase().trim();
     if (answer === 'toothbrush') {
         document.getElementById('Toothbrush').classList.remove("hide");
         document.getElementById('questionFour').classList.remove("hide");
@@ -58,7 +58,7 @@ function questionThree() {
 // question four
 function questionFour() {
     let getAnswer = document.getElementById('answerFour').value;
-    let answer = getAnswer.toLowerCase().trim()
+    let answer = getAnswer.toLowerCase().trim();
     if (answer === 'tap') {
         document.getElementById('TapWater').classList.remove("hide");
         document.getElementById('overflowing').classList.remove("hide");
@@ -77,7 +77,7 @@ function questionFour() {
 // question five
 function questionFive() {
     let getAnswer = document.getElementById('answerFive').value;
-    let answer = getAnswer.toLowerCase().trim()
+    let answer = getAnswer.toLowerCase().trim();
     if (answer === 'towel') {
         document.getElementById('Towels').classList.remove("hide");
         document.getElementById('questionFive').classList.add("hide");
